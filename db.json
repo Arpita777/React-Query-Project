@@ -1,0 +1,19 @@
+{
+  "superheroes": [
+    {
+      "id": 880,
+      "name": "Spider Man 1",
+      "alterEgo": "Peter Parker"
+    },
+    {
+      "id": 881,
+      "name": "Bat Man 3688",
+      "alterEgo": "Bruce Wayne 3"
+    },
+    {
+      "id": 882,
+      "name": "Kanak 7",
+      "alterEgo": "Arpita Biswal"
+    }
+  ]
+}

@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { QueryClientProvider, QueryClient } from "react-query";
+import { ReactQueryDevtools } from "react-query/devtools";
+import "./App.css";
+import { HomePage } from "./components/Home.page";
+import { SuperHeroesPage } from "./components/SuperHeroes.page";
+import { RQSuperHeroesPage } from "./components/RQSuperHeroes.page";
+import { RQSuperHeroesPage2 } from "./components/RQSuperHeroes2.page";
+import { RQSuperHeroPage } from "./components/RQSuperHero.page";
+
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <div>
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/super-heroes">Traditional Super Heroes</Link>
+            <Link to="/rqsuper-heroes">RQSuper Heroes</Link>
+            <Link to="/rqsuper-heroes2">RQSuper Heroes2</Link>
+          </nav>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route
+              path="/rqsuper-heroes/:heroId"
+              element={<RQSuperHeroPage />}
+            />
+            <Route path="/super-heroes" element={<SuperHeroesPage />} />
+            <Route path="/rqsuper-heroes" element={<RQSuperHeroesPage />} />
+            <Route path="/rqsuper-heroes2" element={<RQSuperHeroesPage2 />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+    </QueryClientProvider>
   );
 }
 
