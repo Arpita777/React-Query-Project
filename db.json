@@ -15,5 +15,31 @@
       "name": "Kanak 7",
       "alterEgo": "Arpita Biswal"
     }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Senorita"
+    },
+    {
+      "id": 2,
+      "name": "Cindrella"
+    },
+    {
+      "id": 3,
+      "name": "Rapunzel"
+    }
+  ],
+  "users": [
+    {
+      "id": "arpitab@gmail.com",
+      "channelId": "codevolution"
+    }
+  ],
+  "courses": [
+    {
+      "id": "codevolution",
+      "list": ["react", "angular", "vue"]
+    }
   ]
 }

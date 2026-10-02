@@ -12,7 +12,7 @@ export const RQSuperHeroPage = () => {
   if (isError) {
     return <div>{error.message}</div>;
   }
-  console.log(data);
+
   return (
     <div>
       {data?.data.name} - {data?.data.alterEgo}
