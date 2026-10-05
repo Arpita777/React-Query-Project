@@ -41,5 +41,47 @@
       "id": "codevolution",
       "list": ["react", "angular", "vue"]
     }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "name": "pink"
+    },
+    {
+      "id": 2,
+      "name": "black"
+    },
+    {
+      "id": 3,
+      "name": "yellow"
+    },
+    {
+      "id": 4,
+      "name": "orange"
+    },
+    {
+      "id": 5,
+      "name": "blue"
+    },
+    {
+      "id": 6,
+      "name": "peach"
+    },
+    {
+      "id": 7,
+      "name": "violet"
+    },
+    {
+      "id": 8,
+      "name": "sky"
+    },
+    {
+      "id": 9,
+      "name": "grey"
+    },
+    {
+      "id": 10,
+      "name": "brown"
+    }
   ]
 }
