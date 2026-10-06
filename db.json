@@ -1,32 +1,57 @@
 {
   "superheroes": [
     {
-      "id": 880,
+      "id": "880",
       "name": "Spider Man 1",
       "alterEgo": "Peter Parker"
     },
     {
-      "id": 881,
+      "id": "881",
       "name": "Bat Man 3688",
       "alterEgo": "Bruce Wayne 3"
     },
     {
-      "id": 882,
+      "id": "882",
       "name": "Kanak 7",
       "alterEgo": "Arpita Biswal"
+    },
+    {
+      "name": "flash",
+      "alterEgo": "bell",
+      "id": "4oXlGVHIRjI"
+    },
+    {
+      "name": "oio",
+      "alterEgo": "jag",
+      "id": "0kxNjY2XX3Q"
+    },
+    {
+      "name": "xx",
+      "alterEgo": "yy",
+      "id": "O24C4luE7W4"
+    },
+    {
+      "name": "zzz",
+      "alterEgo": "123",
+      "id": "34XQoNnGjSU"
+    },
+    {
+      "name": "yyy",
+      "alterEgo": "123",
+      "id": "85-hNnXQINc"
     }
   ],
   "friends": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Senorita"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Cindrella"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Rapunzel"
     }
   ],
@@ -39,49 +64,54 @@
   "courses": [
     {
       "id": "codevolution",
-      "list": ["react", "angular", "vue"]
+      "list": [
+        "react",
+        "angular",
+        "vue"
+      ]
     }
   ],
   "colors": [
     {
-      "id": 1,
+      "id": "1",
       "name": "pink"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "black"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "yellow"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "orange"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "blue"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "peach"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "violet"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "sky"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "grey"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "brown"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
